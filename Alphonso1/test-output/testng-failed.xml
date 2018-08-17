@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AlphonsoAssetValidation]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="com.alphonso.tests.AlphonsoLogin">
+        <methods>
+          <include name="postcondition"/>
+          <include name="alphonsoLogin"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.alphonso.tests.AlphonsoLogin -->
+      <class name="com.alphonso.tests.SearchForAsset">
+        <methods>
+          <include name="alphonsoSearch"/>
+          <include name="postcondition"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.alphonso.tests.SearchForAsset -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [AlphonsoAssetValidation] -->
